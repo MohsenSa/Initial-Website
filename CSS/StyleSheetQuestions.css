@@ -1,0 +1,57 @@
+body{
+  /*background-color: rgba(0,0,255,.09);*/c
+  background-repeat: no-repeat;
+  background-image:  url("../Images/BackGround.png");
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+}
+h1{
+  color:rgba(255,255,255,1);
+  background-color: rgba(0,0,255,1);
+  display: inline-block;
+  width:15%;
+  height: 30%;
+  font-family: Times;
+  font-size: 2.55vw;
+  margin:20px;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+  padding:10px;
+}
+h6{
+  color:rgba(83, 180, 255,1);
+  display: block;
+  width:15%;
+  height: 30%;
+  font-family: Times;
+  font-size: 2.55vw;
+  margin:0 auto;
+  border: solid;
+  border-color: rgba(255, 0, 0,1);
+  border-width: 5px;
+  padding:10px;
+  text-align: center;
+}
+nav a{
+  color:rgba(255, 255, 255,1);
+  display: inline-block;
+  background-color: rgba(83, 0, 255,1);
+  width:10%;
+  height: 30%;
+  font-family: Times;
+  font-size: 2.55vw;
+  margin-left:20px;
+  border: solid;
+  border-color: rgba(255, 0, 230,0.8);
+  text-decoration: none;
+  border-width: 5px;
+  padding:10px;
+}
+nav a:hover{
+  background-color: rgba(50,50,50,1);
+}
+nav a:active{
+  border-color: rgba(5, 0, 230,0.8);
+}
